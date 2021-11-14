@@ -1,0 +1,67 @@
+/*Utility classes*/
+.image_responsive{
+    max-width: 100%;
+}
+.im{
+    max-width: 118%;
+}
+
+
+.hero_image{
+    background-image: url("img/img1.jpg");
+    height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+}
+.hero_wrapper{
+    color: blanchedalmond;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero_wrapper h1,p{
+    text-align: center;
+}
+.form_code{
+    text-align: center;
+}
+.form_code .post_code{
+    display: block;
+    width: 90%;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .3rem;
+    border: none;
+    outline: none;
+}
+.form_code button{
+    width: 80%;
+    border-radius: 0.3rem;
+    background-color: burlywood;
+    padding: 0.3rem;
+    border: none;
+    outline: none;
+    margin: 0.7rem auto 0rem;
+}
+
+/* Product section*/
+.food_type{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.item{
+    float: left ;
+    width: 31.33%;
+    margin-left: 0.5rem;
+}
+.item :first-of-type{
+    margin-left: 0rem;
+}
+
